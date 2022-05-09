@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num{
+    position: absolute;
+}
+
+.a{clip-path: polygon(80% 20%, 100% 0, 0 0, 20% 20%);background-color: black; width: 200px;height: 200px;}
+.b{clip-path: polygon(20% 80%, 0 100%, 0 0, 20% 20%);background-color: black; width: 200px;height: 200px;}
+.c{clip-path: polygon(80% 20%, 100% 0, 100% 100%, 80% 80%);background-color: black; width: 200px;height: 200px;}
+.d{clip-path: polygon(10% 40%, 90% 40%, 100% 50%, 90% 60%, 10% 60%, 0% 50%);background-color: black; width: 200px;height: 200px;}
+/* .d{clip-path: polygon(20% 30%, 80% 30%, 100% 50%, 80% 70%, 20% 70%, 0% 50%);background-color: black; width: 200px;height: 200px;} */
+.e{clip-path: polygon(80% 20%, 100% 0, 100% 100%, 80% 80%);background-color: black; width: 200px;height: 200px;-color: black; width: 200px;height: 200px;}
+.f{clip-path: polygon(20% 80%, 0 100%, 0 0, 20% 20%);background-color: black; width: 200px;height: 200px;}
+.g{clip-path: polygon(20% 80%, 0 100%, 100% 100%, 80% 80%);background-color: black; width: 200px;height: 200px;}
+
+
+
+
