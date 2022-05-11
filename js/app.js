@@ -7,7 +7,7 @@ let secondInt = setInterval(function(){
 }, 1000);
 
 function secondNum(){
-    second++;
+    
     console.log(second);
 
     for(let i=0; i < num.length; i++){
@@ -22,5 +22,11 @@ function secondNum(){
         
     }
 
+    
 
+    if(second == 9){
+        second = -1;
+    }
+
+    second++;
 }
